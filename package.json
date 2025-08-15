@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "ejs": "^3.1.10",
-    "expree": "^2.1.0",
+    "express": "^4.21.2",
     "mongoose": "^8.17.1"
   }
 }
