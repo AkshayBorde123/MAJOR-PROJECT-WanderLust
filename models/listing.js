@@ -8,6 +8,8 @@ const listingSchema = new mongoose.Schema({
   description: String,
   image: {
     type: String,
+    default:
+      "https://thumbs.dreamstime.com/b/splendid-sunny-day-gorgeous-meadow-near-vestrahorn-mountaine-stokksnes-cape-iceland-location-stokksnes-cape-vestrahorn-159853222.jpg",
     set: (v) =>
       v === ""
         ? "https://thumbs.dreamstime.com/b/splendid-sunny-day-gorgeous-meadow-near-vestrahorn-mountaine-stokksnes-cape-iceland-location-stokksnes-cape-vestrahorn-159853222.jpg"
