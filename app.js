@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const port = 8081;
 const path = require("path");
 const Listing = require("./models/listing.js");
+const { count } = require("console");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 
@@ -17,6 +18,7 @@ async function main() {
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
+app.use(express.urlencoded({ extended: true }));
 
 app.listen(port, () => {
   console.log(`app is running on ${port}`);
@@ -45,11 +47,22 @@ app.get("/testListing", async (req, res) => {
 
 app.get("/listings", async (req, res) => {
   let allListings = await Listing.find();
-  res.render("index.ejs", { allListings });
+  res.render("./listings/index.ejs", { allListings });
+});
+
+app.get("/listings/new", (req, res) => {
+  res.render("./listings/new.ejs");
+});
+
+app.post("/listings", async (req, res) => {
+  let newListing = new Listing(req.body.listing);
+  console.log(newListing);
+  await newListing.save();
+  res.redirect("/listings");
 });
 
 app.get("/listings/:id", async (req, res) => {
   let { id } = req.params;
   let listing = await Listing.findById(id);
-  res.render("show.ejs", { listing });
+  res.render("./listings/show.ejs", { listing });
 });
