@@ -54,7 +54,7 @@ const sampleListings = [
     description:
       "Experience glamping in the Sahara Desert with this eco-friendly dome offering panoramic views of golden dunes.",
     image:
-      "https://images.unsplash.com/photo-1606663889139-6e3fdd80c329?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFuZHNjYXBlJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000",
     price: 1250,
     location: "Merzouga",
     country: "Morocco",
@@ -74,7 +74,7 @@ const sampleListings = [
     description:
       "Relax by the tranquil waters of Lake Muskoka in this charming cottage with a private dock and canoe.",
     image:
-      "https://images.unsplash.com/photo-1505692794401-0f36c7d6c88e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://www.travelwithjane.com/wp-content/uploads/2016/05/Luxury-and-peaceful-villa-with-Pool.jpg",
     price: 1400,
     location: "Ontario",
     country: "Canada",
@@ -94,7 +94,7 @@ const sampleListings = [
     description:
       "Immerse yourself in the peaceful French countryside with this stone farmhouse surrounded by lavender fields.",
     image:
-      "https://images.unsplash.com/photo-1590490360182-8f162b2c9b3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFuZHNjYXBlJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000",
     price: 2000,
     location: "Provence",
     country: "France",
@@ -104,7 +104,7 @@ const sampleListings = [
     description:
       "Sleep under shimmering ice sculptures in this famous hotel built entirely of snow and ice blocks.",
     image:
-      "https://images.unsplash.com/photo-1582719478194-bb3a2b0f1d6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://images.squarespace-cdn.com/content/v1/62707bb295535a1426e4aa2e/b3f9dcf7-7928-498d-a063-9b9845448547/mountain-haven-retreat-vacation-rental-airbnb-shingletown-california_0002.jpg",
     price: 3200,
     location: "Jukkasjärvi",
     country: "Sweden",
@@ -174,7 +174,7 @@ const sampleListings = [
     description:
       "A high-rise penthouse with panoramic city views and world-class amenities.",
     image:
-      "https://images.unsplash.com/photo-1486308510493-aa6483361d46?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://fetch.getnarrativeapp.com/static/818d60bc-0a16-4757-ab0e-b941d9e2da34/seattle-airbnb-photographer-suncadia-cle-elum-mountain-cabin-photographer-travel-hospitality-vrbo-interior-roslyn-pacific-northwest-.jpg?w=500",
     price: 4500,
     location: "Dubai",
     country: "United Arab Emirates",
@@ -194,7 +194,7 @@ const sampleListings = [
     description:
       "Marvel at the Atlantic Ocean from this secluded Algarve villa with infinity pool.",
     image:
-      "https://images.unsplash.com/photo-1542317854-f9596ae570b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://tse3.mm.bing.net/th/id/OIP.ah_da4Z0owJkPKrTXoDIDwHaE8?pid=Api&P=0&h=180",
     price: 2600,
     location: "Algarve",
     country: "Portugal",
@@ -204,7 +204,7 @@ const sampleListings = [
     description:
       "Charming barn conversion with rustic interiors and rolling hills all around.",
     image:
-      "https://images.unsplash.com/photo-1505842465776-3bdd4813a4ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://cdn1.matadornetwork.com/blogs/1/2022/12/superb-airbnb-play.jpg",
     price: 1550,
     location: "Cotswolds",
     country: "United Kingdom",
@@ -243,7 +243,7 @@ const sampleListings = [
     description:
       "Savor local wines and sunsets at this luxurious vineyard villa.",
     image:
-      "https://images.unsplash.com/photo-1521401292936-0a2129b1428e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://tse1.mm.bing.net/th/id/OIP.YuheE8l2nuk_joE7hu5wVwHaDw?pid=Api&P=0&h=180",
     price: 2100,
     location: "Colchagua Valley",
     country: "Chile",
@@ -253,7 +253,7 @@ const sampleListings = [
     description:
       "Stay inside Cappadocia’s iconic cave dwellings with hot air balloons overhead.",
     image:
-      "https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://tse2.mm.bing.net/th/id/OIP.JTW_kviDY9XH6_6bAwAJtwHaE8?pid=Api&P=0&h=180",
     price: 1750,
     location: "Göreme",
     country: "Turkey",
@@ -273,7 +273,7 @@ const sampleListings = [
     description:
       "Modern villa with sea views and a private infinity pool on Costa del Sol.",
     image:
-      "https://images.unsplash.com/photo-1600047505918-0c77e25fd8f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "https://tse3.mm.bing.net/th/id/OIP.U_hK6cGl6OQEyoIAMTXU0wHaE7?pid=Api&P=0&h=180",
     price: 2950,
     location: "Marbella",
     country: "Spain",
